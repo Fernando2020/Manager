@@ -16,11 +16,6 @@ namespace Manager.Infra.Context
 
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-ADSO18K\SQLEXPRESS;Database=USERMANAGERAPI;Integrated Security=True;");
-        }
-
         public virtual DbSet<User> Users { get; set; }
     
         protected override void OnModelCreating(ModelBuilder builder)
