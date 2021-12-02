@@ -43,7 +43,7 @@ namespace Manager.Domain.Validators
                 .Matches(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$")
                 .WithMessage("O email está inválido.");
 
-            RuleFor(x => x.Name)
+            RuleFor(x => x.Password)
                 .NotNull()
                 .WithMessage("A senha não pode ser nula.")
 
