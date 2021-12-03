@@ -13,15 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infra", "04 - Infra", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Core", "05 - Core", "{996463D5-B057-4DCE-B5DA-E38B74C77353}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.WebApi", "src\Manager.WebApi\Manager.WebApi.csproj", "{21AF7AAC-BD12-4CC5-9E4C-E7378295A780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manager.WebApi", "src\Manager.WebApi\Manager.WebApi.csproj", "{21AF7AAC-BD12-4CC5-9E4C-E7378295A780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.Domain", "src\Manager.Domain\Manager.Domain.csproj", "{ED2CA724-5A9D-4C4E-8B5D-5CD86AB799F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manager.Domain", "src\Manager.Domain\Manager.Domain.csproj", "{ED2CA724-5A9D-4C4E-8B5D-5CD86AB799F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.Services", "src\Manager.Services\Manager.Services.csproj", "{6C9F8AF4-575D-4206-9089-6244F3BB31CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manager.Services", "src\Manager.Services\Manager.Services.csproj", "{6C9F8AF4-575D-4206-9089-6244F3BB31CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.Infra", "src\Manager.Infra\Manager.Infra.csproj", "{48D2ED5B-0F81-48EE-AEAD-0AE530A96235}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manager.Infra", "src\Manager.Infra\Manager.Infra.csproj", "{48D2ED5B-0F81-48EE-AEAD-0AE530A96235}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.Core", "src\Manager.Core\Manager.Core.csproj", "{58E8B071-7F97-4F40-8688-125C314ABA3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manager.Core", "src\Manager.Core\Manager.Core.csproj", "{58E8B071-7F97-4F40-8688-125C314ABA3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Tests", "06 - Tests", "{D7D17643-A370-436D-87CB-27EF4C07E969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.Tests", "src\Manager.Tests\Manager.Tests.csproj", "{E1B82374-3B5E-4A71-92DE-6534D65E520A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{58E8B071-7F97-4F40-8688-125C314ABA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58E8B071-7F97-4F40-8688-125C314ABA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58E8B071-7F97-4F40-8688-125C314ABA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B82374-3B5E-4A71-92DE-6534D65E520A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B82374-3B5E-4A71-92DE-6534D65E520A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B82374-3B5E-4A71-92DE-6534D65E520A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B82374-3B5E-4A71-92DE-6534D65E520A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{6C9F8AF4-575D-4206-9089-6244F3BB31CF} = {50F06B95-63C5-4E8F-BD23-7F5553FE760C}
 		{48D2ED5B-0F81-48EE-AEAD-0AE530A96235} = {94898E3E-0DB9-432C-A7C3-55853B2ECE54}
 		{58E8B071-7F97-4F40-8688-125C314ABA3B} = {996463D5-B057-4DCE-B5DA-E38B74C77353}
+		{E1B82374-3B5E-4A71-92DE-6534D65E520A} = {D7D17643-A370-436D-87CB-27EF4C07E969}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {564F333E-310F-47D4-9153-16DF629701A4}
